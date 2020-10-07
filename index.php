@@ -1,11 +1,11 @@
 <?php
 
-	// vinculamos los archivos usando la función predeteminada require_once
+	// vincula los archivos usando la función require_once
 	require_once('controllers/template.controller.php');
 	require_once('controllers/forms.controller.php');
 
-	// instanciamos la clase
+	// Instacia la clase
 	$template = new TemplateController();
 
-	// ejecuto los métodos de la clase
+	// ejecuta los métodos de la clase
 	$template -> ctrGetTemplate();

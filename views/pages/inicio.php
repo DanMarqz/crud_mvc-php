@@ -6,7 +6,7 @@
       <table class="table table-striped">
         <thead>
           <tr>
-            <th>Nobmre</th>
+            <th>Nombre</th>
             <th>Apellido</th>
             <th>Email</th>
           </tr>

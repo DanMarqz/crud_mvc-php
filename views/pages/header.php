@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -68,10 +68,10 @@
 						<!--opciones del menu para variables $_GET-->
 						<!--agregamos la barra de navegación-->
 						<li class="nav-item">
-							<a class="nav-link active" href="index.php?pages=registro">Registro</a>
+							<a class="nav-link" href="index.php?pages=registro">Registro</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="index.php?pages=ingreso">Ingreso</a>
+							<a class="nav-link active" href="index.php?pages=ingreso">Ingreso</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="index.php?pages=inicio">Inicio</a>

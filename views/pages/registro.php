@@ -39,18 +39,20 @@
       </div>
       <!-- End of Form pwd -->
       
-      <!-- Objeto para vincular el controlador forms.controller.php-->
+      <!-- Objeto para vincular con el controlador forms.controller.php-->
       <?php 
       /*$registro = new FormsController();
-        $registro -> ctrRegistro();*/
+        $registro -> ctrRegistro();
+        Se modifica para utilizar los métodos estáticos*/
         $registro = FormsController::ctrRegistro();
-        //echo $registro;
+        /* Se modifica para poder almacenar los datos en la BD
+        echo $registro;*/
         if($registro == "OK"){
         //funcion para limpiar el formulario luego de enviar los datos
           echo 	'<script>
-                if(window.history.replaceState){
-                  window.history.replaceState(null, null, window.location.href)
-                }
+                  if(window.history.replaceState){
+                    window.history.replaceState(null, null, window.location.href)
+                  }
                 </script>';
           // Mensaje de confirmación de registro exitoso
           echo '<div class="alert alert-success">Usuario Registrado</div>';

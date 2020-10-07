@@ -29,7 +29,7 @@
       <!-- End of Form pwd -->
       <div class="form-group form-check">
         <label class="form-check-label">
-          <input type="checkbox" class="form-check-input" name="remember">Recuerdame
+          <input type="checkbox" class="form-check-input" name="remember">Recuerdame <a href="index.php?pages=registro"> Registrarse</a>
         </label>
       </div>
       <button type="submit" class="btn btn-primary">Ingresar</button>

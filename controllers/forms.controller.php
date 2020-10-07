@@ -1,13 +1,13 @@
 <?php 
 	class FormsController{
-		# Creamos la funcion publica ctrRegistro
+		# Crea la funcion publica ctrRegistro
 		static public function ctrRegistro(){
-			#Condicional IF
+			# IF en las variables POST tienen datos
 			if(isset($_POST['registroName'])){
-				return /*$_POST['registroName']."<br>".;
-                $_POST['registroEmail']."<br>".;
-                $_POST['registroPwd']."<br>";*/
-					"OK";
+				return "OK";
+				echo $_POST['registroName'].'<br>'. // Retorna el valor de la variable
+					$_POST['registroEmail'].'<br>'.
+					$_POST['registroPwd'].'<br>';
 			}
-		}//Cierre de la función		
-	}//Cierre de la clase 
+		}
+	}
