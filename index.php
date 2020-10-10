@@ -3,6 +3,7 @@
 	// vincula los archivos usando la función require_once
 	require_once('controllers/template.controller.php');
 	require_once('controllers/forms.controller.php');
+	require_once('models/forms.models.php');
 
 	// Instacia la clase
 	$template = new TemplateController();

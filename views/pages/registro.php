@@ -23,7 +23,7 @@
           <div class="input-group-prepend">
             <span class="input-group-text"><i class="fas fa-envelope"></i></span>
           </div>
-          <input type="email" class="form-control" placeholder="Escriba su correo" id="email" name="registroEmail">
+          <input type="email" class="form-control" placeholder="Escriba su correo" id="email" name="registroMail">
         </div>				
       </div>
       <!-- End of Form Email -->
